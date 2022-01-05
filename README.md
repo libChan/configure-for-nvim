@@ -1,6 +1,6 @@
 # Nvim Configuration
 
-This is A simple lua-based configuration for nvim[>= 0.5.0]. Testing env is WSL2[Ubuntu 20.04]. 
+This is A simple lua-based configuration for nvim[>= 0.5.0]. Testing env is WSL2[Ubuntu 20.04]. **Will update detail later.** 
 ```
 nvim
 ├── README.md
@@ -17,7 +17,7 @@ nvim
     └── packer_compiled.lua
 ```
 **Editor:**
-- Neovim(0.6.1)
+- [Neovim(0.6.1)](https://github.com/neovim/neovim)
 
 **Plugin Manager:**
 - [packer.nvim](https://github.com/wbthomason/packer.nvim)
@@ -34,4 +34,6 @@ nvim
 **Theme:**
 - [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 
-**Will Update detail later.**
+## Reference
+- An all-side guide to nvim-lua: [nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide)
+- Thanks to this detailed and hand-by-hand guide to nvim-lua(continuous updating): [learn-neovim-lua](https://github.com/nshen/learn-neovim-lua)
