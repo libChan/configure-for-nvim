@@ -21,6 +21,9 @@ map("v", ">", ">gv", opt)
 map("n", "/", "/\\v", { noremap = true , silent = false})
 map("v", "/", "/\\v", { noremap = true , silent = false})
 
+-- jj映射到esc
+map("i", "jj", "<ESC>", opt)
+
 ------------------------------------------------------------------
 -- windows 分屏快捷键
 map("n", "sv", ":vsp<CR>", opt)
@@ -47,8 +50,12 @@ map("n", "<A-l>", "<C-w>l", opt)
 -- 插件快捷键
 -- nvimTree
 map('n', '<A-m>', ':NvimTreeToggle<CR>', opt)
--- bufferline 左右Tab切换
+-- bufferline 
+-- 左右Tab切换
 map("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
 map("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
+-- Tab移动
+map("n", "<t-Left>", ":BufferLineMovePrev<CR>", opt)
+map("n", "<t-Right>", ":BufferLineMoveNext<CR>", opt)
 -- nvim-treesitter 代码格式化
 map("n", "<leader>i", "gg=G", opt)

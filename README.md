@@ -26,6 +26,7 @@ nvim
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
 - [bufferline](https://github.com/akinsho/bufferline.nvim)
+
 - [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
 
 **LSP:**
@@ -37,3 +38,13 @@ nvim
 ## Reference
 - An all-side guide to nvim-lua: [nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide)
 - Thanks to this detailed and hand-by-hand guide to nvim-lua(continuous updating): [learn-neovim-lua](https://github.com/nshen/learn-neovim-lua)
+
+## ToDo
+- 关掉当前窗口
+- 调整一个tab到split的窗口
+- auto-fix(done)
+- jj映射到esc(done)
+- fzf当前文件夹查找class
+- rewrite coc.nvim config to lua
+- vim tutuor过一遍
+
