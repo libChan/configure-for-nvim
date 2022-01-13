@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/xinrushan/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
+  ["fzf-lua"] = {
+    loaded = true,
+    path = "/home/xinrushan/.local/share/nvim/site/pack/packer/start/fzf-lua",
+    url = "https://github.com/ibhagwan/fzf-lua"
+  },
   ["markdown-preview.nvim"] = {
     commands = { "MarkdownPreview" },
     loaded = false,

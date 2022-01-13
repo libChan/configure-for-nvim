@@ -26,8 +26,8 @@ nvim
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
 - [bufferline](https://github.com/akinsho/bufferline.nvim)
-
 - [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
+- [fzf-lua](https://github.com/ibhagwan/fzf-lua): a nvim-lua-plugin for terminal tool [fzf](https://github.com/junegunn/fzf).
 
 **LSP:**
 - [coc.nvim](https://github.com/neoclide/coc.nvim)
@@ -35,16 +35,14 @@ nvim
 **Theme:**
 - [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 
-## Reference
-- An all-side guide to nvim-lua: [nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide)
-- Thanks to this detailed and hand-by-hand guide to nvim-lua(continuous updating): [learn-neovim-lua](https://github.com/nshen/learn-neovim-lua)
-
-## ToDo
-- 关掉当前窗口
-- 调整一个tab到split的窗口
-- auto-fix(done)
+## Feature
+- 关掉当前窗口(bufferline-':bdelete %d')
+- auto-fix(done): based on coc.nvim, map to <leader>f.
 - jj映射到esc(done)
-- fzf当前文件夹查找class
+- fzf当前文件夹查找class(done): fzf-lua, find file map to <C-p>.
 - rewrite coc.nvim config to lua
 - vim tutuor过一遍
 
+## Reference
+- An all-side guide to nvim-lua: [nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide)
+- Thanks to this detailed and hand-by-hand guide to nvim-lua(continuous updating): [learn-neovim-lua](https://github.com/nshen/learn-neovim-lua)

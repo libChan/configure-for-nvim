@@ -59,3 +59,5 @@ map("n", "<t-Left>", ":BufferLineMovePrev<CR>", opt)
 map("n", "<t-Right>", ":BufferLineMoveNext<CR>", opt)
 -- nvim-treesitter 代码格式化
 map("n", "<leader>i", "gg=G", opt)
+-- fzf-lua
+map("n", "<C-p>", "<cmd>lua require('fzf-lua').files()<CR>", opt)

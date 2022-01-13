@@ -19,4 +19,6 @@ return require('packer').startup(function()
   use {'neoclide/coc.nvim', branch = 'release'}
   -- markdown-preview.nvim
   use {'iamcco/markdown-preview.nvim', run = 'cd app && npm install', cmd = 'MarkdownPreview'}
+  -- fzf
+  use { 'ibhagwan/fzf-lua', requires = 'kyazdani42/nvim-web-devicons'}
 end)
