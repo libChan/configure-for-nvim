@@ -24,6 +24,9 @@ map("v", "/", "/\\v", { noremap = true , silent = false})
 -- jj映射到esc
 map("i", "jj", "<ESC>", opt)
 
+-- <C-s>快速保存
+map("n", "<C-s>", ":w!<Enter>", opt)
+map("i", "<C-s>", "<ESC>:w!<Enter>", opt)
 ------------------------------------------------------------------
 -- windows 分屏快捷键
 map("n", "sv", ":vsp<CR>", opt)

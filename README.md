@@ -42,6 +42,11 @@ nvim
 - fzf当前文件夹查找class(done): fzf-lua, find file map to <C-p>.
 - rewrite coc.nvim config to lua
 - vim tutuor过一遍
+- 快速注释
+- 剪切多行(done): number + dd
+- 快捷键保存/自动保存(done): map <C-s> to :w!
+- markdown自动生成表格
+- fzf-lua全局搜索类名
 
 ## Reference
 - An all-side guide to nvim-lua: [nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide)
