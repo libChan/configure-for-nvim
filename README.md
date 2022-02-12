@@ -37,14 +37,14 @@ nvim
 
 ## Feature
 - 关掉当前窗口(bufferline-':bdelete %d')
-- auto-fix(done): based on coc.nvim, map to <leader>f.
-- jj映射到esc(done)
-- fzf当前文件夹查找class(done): fzf-lua, find file map to <C-p>.
+- (done)auto-fix: based on coc.nvim, map to <leader>f.
+- (done)jj映射到esc
+- (done)fzf当前文件夹查找class: fzf-lua, find file map to <C-p>.
 - rewrite coc.nvim config to lua
 - vim tutuor过一遍
-- 快速注释
-- 剪切多行(done): number + dd
-- 快捷键保存/自动保存(done): map <C-s> to :w!
+- (done)快速注释: 解决windows粘贴键冲突，C-v进入visual mode，选择+I+comment+esc*2
+- (done)剪切多行: number + dd
+- (done)快捷键保存/自动保存: map <C-s> to :w!
 - markdown自动生成表格
 - fzf-lua全局搜索类名
 
